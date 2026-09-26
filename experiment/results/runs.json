@@ -1,0 +1,203 @@
+[
+ {
+  "dataset": "chaos",
+  "method": "softmax",
+  "hp": {
+   "W": 2.0,
+   "reg": 0.0,
+   "lr": 0.0003,
+   "wd": 0.0001
+  },
+  "fold0_val_macro_f1": 0.5336247943766261
+ },
+ {
+  "dataset": "chaos",
+  "method": "edl",
+  "hp": {
+   "W": 2.0,
+   "reg": 0.1,
+   "lr": 0.001,
+   "wd": 0.01
+  },
+  "fold0_val_macro_f1": 0.5470738226420044
+ },
+ {
+  "dataset": "chaos",
+  "method": "rnel",
+  "hp": {
+   "W": 5.0,
+   "reg": 0.1,
+   "lr": 0.001,
+   "wd": 0.01
+  },
+  "fold0_val_macro_f1": 0.5424757384226537
+ },
+ {
+  "dataset": "climate",
+  "fold": 0,
+  "rule": [
+   0.3,
+   0.95
+  ]
+ },
+ {
+  "dataset": "climate",
+  "method": "softmax",
+  "hp": {
+   "W": 2.0,
+   "reg": 0.0,
+   "lr": 0.001,
+   "wd": 0.01
+  },
+  "fold0_val_macro_f1": 0.4988497796223872
+ },
+ {
+  "dataset": "climate",
+  "method": "edl",
+  "hp": {
+   "W": 2.0,
+   "reg": 0.0,
+   "lr": 0.001,
+   "wd": 0.01
+  },
+  "fold0_val_macro_f1": 0.49626894712185093
+ },
+ {
+  "dataset": "climate",
+  "method": "rnel",
+  "hp": {
+   "W": 5.0,
+   "reg": 0.0,
+   "lr": 0.001,
+   "wd": 0.0001
+  },
+  "fold0_val_macro_f1": 0.4950253433616743
+ },
+ {
+  "dataset": "climate",
+  "method": "rnel_neeU",
+  "hp": {
+   "W": 2.0,
+   "reg": 0.1,
+   "lr": 0.0003,
+   "wd": 0.01
+  },
+  "fold0_val_macro_f1": 0.4915502955825536
+ },
+ {
+  "dataset": "climate",
+  "fold": 1,
+  "rule": [
+   0.44999999999999996,
+   0.95
+  ]
+ },
+ {
+  "dataset": "climate",
+  "fold": 2,
+  "rule": [
+   0.44999999999999996,
+   0.8999999999999999
+  ]
+ },
+ {
+  "dataset": "climate",
+  "fold": 3,
+  "rule": [
+   0.3,
+   0.75
+  ]
+ },
+ {
+  "dataset": "climate",
+  "fold": 4,
+  "rule": [
+   0.44999999999999996,
+   0.95
+  ]
+ },
+ {
+  "dataset": "averitec",
+  "fold": 0,
+  "rule": [
+   0.3,
+   0.5499999999999999
+  ]
+ },
+ {
+  "dataset": "averitec",
+  "method": "softmax",
+  "hp": {
+   "W": 2.0,
+   "reg": 0.0,
+   "lr": 0.001,
+   "wd": 0.01
+  },
+  "fold0_val_macro_f1": 0.47901630107188725
+ },
+ {
+  "dataset": "averitec",
+  "method": "edl",
+  "hp": {
+   "W": 2.0,
+   "reg": 0.0,
+   "lr": 0.0003,
+   "wd": 0.0001
+  },
+  "fold0_val_macro_f1": 0.49146310081793954
+ },
+ {
+  "dataset": "averitec",
+  "method": "rnel",
+  "hp": {
+   "W": 5.0,
+   "reg": 0.1,
+   "lr": 0.001,
+   "wd": 0.0001
+  },
+  "fold0_val_macro_f1": 0.5037920751974583
+ },
+ {
+  "dataset": "averitec",
+  "method": "rnel_neeU",
+  "hp": {
+   "W": 5.0,
+   "reg": 0.1,
+   "lr": 0.001,
+   "wd": 0.01
+  },
+  "fold0_val_macro_f1": 0.504745923447749
+ },
+ {
+  "dataset": "averitec",
+  "fold": 1,
+  "rule": [
+   0.5,
+   0.3
+  ]
+ },
+ {
+  "dataset": "averitec",
+  "fold": 2,
+  "rule": [
+   0.44999999999999996,
+   0.35
+  ]
+ },
+ {
+  "dataset": "averitec",
+  "fold": 3,
+  "rule": [
+   0.3,
+   0.44999999999999996
+  ]
+ },
+ {
+  "dataset": "averitec",
+  "fold": 4,
+  "rule": [
+   0.75,
+   0.6499999999999999
+  ]
+ }
+]
