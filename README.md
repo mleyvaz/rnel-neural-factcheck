@@ -40,6 +40,13 @@ Full results, deviations and the adversarial reviews: `experiment/RESULTS.md` an
 - `experiment/run.py`: trains every method. `--nested` gives the corrected analysis, with
   hyperparameters tuned inside each fold.
 - `experiment/analyze.py`: computes the hypotheses and the descriptive measures (`--nested`).
+- `experiment/theory_ablation.py`: a later, non-preregistered control. It asks whether the
+  contradiction that SL cumulative fusion discards (the largest pairwise SL degree of conflict
+  between evidence pieces) improves detection of the conflict class beyond the fused SL opinion,
+  with the number of evidence pieces as a covariate, threshold-free metrics (AUROC, average
+  precision) and a paired cluster bootstrap. Result: no detectable improvement on either data set
+  (all AUROC differences below 0.01, intervals including zero); output in
+  `experiment/results/theory_ablation.json`.
 - `experiment/results/`: out-of-fold predictions, summaries and a SHA-256 manifest.
 - `experiment/paper_section/`: the figures and numbers of Section 8.6.
 
@@ -52,6 +59,7 @@ python features.py                         # CPU, about 1-2 h
 python run.py --nested climate averitec chaos
 python analyze.py --nested
 python paper_section/make_figs.py
+python theory_ablation.py                  # control of the fusion-loss result
 ```
 The raw datasets and encoder features are not redistributed, because of their non-commercial licences.
 
